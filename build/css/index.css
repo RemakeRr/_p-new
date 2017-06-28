@@ -3,16 +3,17 @@
   src: url(../fonts/Hind-Bold.ttf); }
 
 body {
-  color: #313131;
+  color: #171717;
   font-family: Hind-Bold; }
 
 .line {
-  height: 20px;
+  height: 15px;
   background-color: #4663E4;
   border-radius: 14px; }
 
 header {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background-image: url(../images/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +32,7 @@ header {
     align-items: center; }
     .nav .nav__link a {
       font-size: 18px;
-      color: #313131;
+      color: #171717;
       text-decoration: none; }
       .nav .nav__link a:hover {
         color: #4663E4;
@@ -44,21 +45,21 @@ header {
       color: #4663E4; }
 
 .header-hero-t {
-  font-size: 120px;
+  font-size: 18vh;
   margin-top: 130px;
   margin-bottom: -50px;
   user-select: none; }
 
 .header-b {
-  margin-top: 58px;
-  height: 180px;
-  background-color: #313131; }
+  margin-top: 80px;
+  height: 158px;
+  background-color: #171717; }
 
 .header-l {
-  margin-top: 70px; }
+  margin-top: 75px; }
 
 .header-b-links {
-  height: 180px;
+  height: 158px;
   display: flex;
   justify-content: space-between;
   align-items: center;
