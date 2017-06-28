@@ -1,0 +1,137 @@
+$black: #313131
+$white: #fff
+$blue: #4663E4
+
+$h-bold: Hind-Bold
+
+@font-face
+	font-family: Hind-Bold
+	src: url('fonts/Hind/Hind-Bold.ttf')
+
+body
+	color: $black
+	font-family: $h-bold
+
+.line
+	height: 20px
+	background-color: $blue
+	border-radius: 14px
+
+header
+	height: 100vh
+	background-image: url('img/header-bg.png')
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	
+.nav
+	width: 100%
+	height: 80px
+	position: fixed
+	z-index: 9999
+	& .nav__link
+		height: 80px
+		display: flex
+		justify-content: flex-start
+		align-items: center
+		& a
+			font-size: 18px
+			color: $black
+			font-family: $h-bold
+		& .active
+			color: $blue
+
+
+.header-hero-t
+	font-size: 120px
+	margin-top: 130px
+	margin-bottom: -50px
+
+.header-b
+	margin-top: 58px
+	height: 180px
+	background-color: $black
+
+.header-l
+	margin-top: 70px
+
+.about
+	height: 200vh
+	background-color: $blue
+
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header-h-text
+		font-size: 10vh
+	.nav__logo
+		display: none
+	.nav__socials
+		padding: 40px						
+	.about__h2
+		font-size: 40px
+		text-align: center
+	.about__p
+		font-size: 16px
+		text-align: center
+	.about__icons-design
+		height: 60px
+	.about__icons-adaptive
+		height: 60px
+	.about__icons-dev
+		height: 60px
+	.about__icons-p
+		font-size: 16px
+	.works
+		padding: 50px 0 50px 0
+	.works__g
+		margin-top: 50px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.header-h-text
+		font-size: 10vh		
+	.nav__logo
+		display: none
+	.about-img
+		display: none
+	.about__h2, .about__p
+		text-align: center
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)	
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/	
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
