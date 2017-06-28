@@ -29,6 +29,7 @@ header
 	height: 80px
 	position: fixed
 	z-index: 9999
+	user-select: none
 	& .nav__link
 		height: 80px
 		display: flex
@@ -37,15 +38,22 @@ header
 		& a
 			font-size: 18px
 			color: $black
-			font-family: $h-bold
+			text-decoration: none	
+			&:hover
+				color: $blue
+				-webkit-transition: all .2s
+				-moz-transition: all .2s
+				-ms-transition: all .2s
+				-o-transition: all .2s
+				transition: all .2s
 		& .active
 			color: $blue
-
 
 .header-hero-t
 	font-size: 120px
 	margin-top: 130px
 	margin-bottom: -50px
+	user-select: none
 
 .header-b
 	margin-top: 58px
@@ -55,6 +63,27 @@ header
 .header-l
 	margin-top: 70px
 
+.header-b-links
+	height: 180px
+	display: flex
+	justify-content: space-between
+	align-items: center	
+	user-select: none
+
+.header-b-link a
+	color: $white
+	font-size: 18px	
+	text-decoration: none
+	&:hover
+		color: $blue
+		-webkit-transition: all .2s
+		-moz-transition: all .2s
+		-ms-transition: all .2s
+		-o-transition: all .2s
+		transition: all .2s
+
+.header-b-link .active
+	color: $blue
 .about
 	height: 200vh
 	background-color: $blue
