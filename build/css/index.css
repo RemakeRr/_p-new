@@ -7,7 +7,7 @@ body {
   font-family: Hind-Bold; }
 
 .line {
-  height: 15px;
+  height: 20px;
   background-color: #4663E4;
   border-radius: 14px; }
 
@@ -31,7 +31,7 @@ header {
     justify-content: flex-start;
     align-items: center; }
     .nav .nav__link a {
-      font-size: 18px;
+      font-size: 15px;
       color: #171717;
       text-decoration: none; }
       .nav .nav__link a:hover {
@@ -45,18 +45,18 @@ header {
       color: #4663E4; }
 
 .header-hero-t {
-  font-size: 18vh;
+  font-size: 17vh;
   margin-top: 130px;
   margin-bottom: -50px;
   user-select: none; }
 
 .header-b {
-  margin-top: 80px;
+  margin-top: 85px;
   height: 158px;
   background-color: #171717; }
 
 .header-l {
-  margin-top: 75px; }
+  margin-top: 85px; }
 
 .header-b-links {
   height: 158px;
@@ -67,7 +67,7 @@ header {
 
 .header-b-link a {
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none; }
   .header-b-link a:hover {
     color: #4663E4;
@@ -80,9 +80,39 @@ header {
 .header-b-link .active {
   color: #4663E4; }
 
-.about {
-  height: 200vh;
-  background-color: #4663E4; }
+.works {
+  height: 225vh;
+  background-color: #F7F7F7; }
+  .works-hero-t {
+    font-size: 17vh;
+    color: #C8C8C8;
+    margin-top: 100px; }
+  .works-l {
+    margin-top: 80px; }
+  .works .works-img {
+    height: 300px;
+    background-color: #4663E4;
+    border-color: #4663E4; }
+    .works .works-img-1 {
+      background-image: url(../images/works-1.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .works .works-img-2 {
+      background-image: url(../images/works-2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .works .works-img-3 {
+      background-image: url(../images/works-3.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+  .works-text {
+    font-size: 50px;
+    margin-top: 60px; }
+  .works-b {
+    margin-top: 100px; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
