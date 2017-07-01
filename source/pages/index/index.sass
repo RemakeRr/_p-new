@@ -1,12 +1,21 @@
 $black: #171717
 $white: #fff
 $blue: #4663E4
+$gray: #C8C8C8
 
 $h-bold: Hind-Bold
+$h-sb: Hind-SB
+$h-m: Hind-M
 
 @font-face
 	font-family: Hind-Bold
-	src: url('fonts/Hind/Hind-Bold.ttf')
+	src: url('fonts/Hind-Bold/Hind-Bold.ttf')
+@font-face
+	font-family: Hind-SB
+	src: url('fonts/Hind-Semibold/Hind-SemiBold.ttf')
+@font-face
+	font-family: Hind-M
+	src: url('fonts/Hind-Medium/Hind-Medium.ttf')
 
 body
 	color: $black
@@ -86,39 +95,70 @@ header
 .header-b-link .active
 	color: $blue
 .works
-	height: 225vh
 	background-color: #F7F7F7
+	padding-bottom: 100px
+	padding-top: 50px
 	&-hero-t
-		font-size: 17vh
-		color: #C8C8C8
-		margin-top: 100px
+		font-size: 120px
+		color: $gray
 	&-l
-		margin-top: 80px
+		margin-top: 75px
 	& .works-img
 		height: 300px
-		background-color: $blue
-		border
-		border-color: $blue
+		background-color: $blue		
+		border-radius: 15px
 		&-1
 			background-image: url('img/works-1.png')
 			background-size: cover
-			background-position: center
+			background-position: 
 			background-repeat: no-repeat			
 		&-2
 			background-image: url('img/works-2.jpg')
 			background-size: cover
-			background-position: center	
 			background-repeat: no-repeat
 		&-3
 			background-image: url('img/works-3.jpg')
 			background-size: cover
-			background-position: center	
 			background-repeat: no-repeat
 	&-text
 		font-size: 50px
 		margin-top: 60px
 	&-b
 		margin-top: 100px
+
+.about
+	padding-top: 150px
+	padding-bottom: 100px
+	background-color: $black
+	&-hero-t
+		color: $gray
+		font-size: 120px
+		line-height: 0
+	&-l
+		margin-top: 40px 
+	&-img
+		margin-top: 80px
+		height: 300px
+		background-color: $blue
+		border-radius: 15px
+		&-1
+			background-image: url('img/about-1.jpg')
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			background-size: cover
+			background-position: center
+		&-2
+			background-image: url('img/about-2.jpg')
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			background-size: cover
+			background-position: center
+	&-p
+		margin-top: 50px
+		color: $white
+		font-size: 50px
+		font-family: $h-m
+
 
 
 /*==========  Desktop First  ==========*/
@@ -133,53 +173,22 @@ header
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	.header-h-text
-		font-size: 10vh
-	.nav__logo
-		display: none
-	.nav__socials
-		padding: 40px						
-	.about__h2
-		font-size: 40px
-		text-align: center
-	.about__p
-		font-size: 16px
-		text-align: center
-	.about__icons-design
-		height: 60px
-	.about__icons-adaptive
-		height: 60px
-	.about__icons-dev
-		height: 60px
-	.about__icons-p
-		font-size: 16px
-	.works
-		padding: 50px 0 50px 0
-	.works__g
-		margin-top: 50px
-
+	/**/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
-	.header-h-text
-		font-size: 10vh		
-	.nav__logo
-		display: none
-	.about-img
-		display: none
-	.about__h2, .about__p
-		text-align: center
+	/**/
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/
+
 
 /*==========  Mobile First  ==========*/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px)	
 	/**/
-
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)

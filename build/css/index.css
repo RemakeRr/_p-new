@@ -2,6 +2,14 @@
   font-family: Hind-Bold;
   src: url(../fonts/Hind-Bold.ttf); }
 
+@font-face {
+  font-family: Hind-SB;
+  src: url(../fonts/Hind-SemiBold.ttf); }
+
+@font-face {
+  font-family: Hind-M;
+  src: url(../fonts/Hind-Medium.ttf); }
+
 body {
   color: #171717;
   font-family: Hind-Bold; }
@@ -81,38 +89,68 @@ header {
   color: #4663E4; }
 
 .works {
-  height: 225vh;
-  background-color: #F7F7F7; }
+  background-color: #F7F7F7;
+  padding-bottom: 100px;
+  padding-top: 50px; }
   .works-hero-t {
-    font-size: 17vh;
-    color: #C8C8C8;
-    margin-top: 100px; }
+    font-size: 120px;
+    color: #C8C8C8; }
   .works-l {
-    margin-top: 80px; }
+    margin-top: 75px; }
   .works .works-img {
     height: 300px;
     background-color: #4663E4;
-    border-color: #4663E4; }
+    border-radius: 15px; }
     .works .works-img-1 {
       background-image: url(../images/works-1.png);
       background-size: cover;
-      background-position: center;
       background-repeat: no-repeat; }
     .works .works-img-2 {
       background-image: url(../images/works-2.jpg);
       background-size: cover;
-      background-position: center;
       background-repeat: no-repeat; }
     .works .works-img-3 {
       background-image: url(../images/works-3.jpg);
       background-size: cover;
-      background-position: center;
       background-repeat: no-repeat; }
   .works-text {
     font-size: 50px;
     margin-top: 60px; }
   .works-b {
     margin-top: 100px; }
+
+.about {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: #171717; }
+  .about-hero-t {
+    color: #C8C8C8;
+    font-size: 120px;
+    line-height: 0; }
+  .about-l {
+    margin-top: 40px; }
+  .about-img {
+    margin-top: 80px;
+    height: 300px;
+    background-color: #4663E4;
+    border-radius: 15px; }
+    .about-img-1 {
+      background-image: url(../images/about-1.jpg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .about-img-2 {
+      background-image: url(../images/about-2.jpg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+  .about-p {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 50px;
+    font-family: Hind-M; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
@@ -125,41 +163,11 @@ header {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .header-h-text {
-    font-size: 10vh; }
-  .nav__logo {
-    display: none; }
-  .nav__socials {
-    padding: 40px; }
-  .about__h2 {
-    font-size: 40px;
-    text-align: center; }
-  .about__p {
-    font-size: 16px;
-    text-align: center; }
-  .about__icons-design {
-    height: 60px; }
-  .about__icons-adaptive {
-    height: 60px; }
-  .about__icons-dev {
-    height: 60px; }
-  .about__icons-p {
-    font-size: 16px; }
-  .works {
-    padding: 50px 0 50px 0; }
-  .works__g {
-    margin-top: 50px; } }
+  /**/ }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .header-h-text {
-    font-size: 10vh; }
-  .nav__logo {
-    display: none; }
-  .about-img {
-    display: none; }
-  .about__h2, .about__p {
-    text-align: center; } }
+  /**/ }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
