@@ -90,8 +90,8 @@ header {
 
 .works {
   background-color: #F7F7F7;
-  padding-bottom: 100px;
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 100px; }
   .works-hero-t {
     font-size: 120px;
     color: #C8C8C8; }
@@ -151,6 +151,41 @@ header {
     color: #fff;
     font-size: 50px;
     font-family: Hind-M; }
+
+.skills {
+  padding-top: 150px;
+  padding-bottom: 50px; }
+  .skills-hero-t {
+    font-size: 120px;
+    color: #C8C8C8;
+    line-height: 0; }
+  .skills-a {
+    height: 600px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 32.5% 32.5% 32.5%;
+    grid-template-columns: 1fr 15% 1fr 10%; }
+    .skills-a-hl {
+      grid-column: 1/2;
+      grid-row: 1/2; }
+    .skills-a-cs {
+      grid-column: 3/4;
+      grid-row: 1/2; }
+    .skills-a-fs {
+      grid-column: 1/2;
+      grid-row: 2/3; }
+    .skills-a-as {
+      grid-column: 1/2;
+      grid-row: 3/4; }
+    .skills-a-ts {
+      padding-top: 125px;
+      grid-column: 3/4;
+      grid-row: 2/4; }
+    .skills-a-h {
+      font-size: 50px; }
+    .skills-a-p {
+      font-size: 25px;
+      font-family: Hind-M; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */

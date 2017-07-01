@@ -96,8 +96,8 @@ header
 	color: $blue
 .works
 	background-color: #F7F7F7
-	padding-bottom: 100px
 	padding-top: 50px
+	padding-bottom: 100px	
 	&-hero-t
 		font-size: 120px
 		color: $gray
@@ -158,6 +158,45 @@ header
 		color: $white
 		font-size: 50px
 		font-family: $h-m
+
+.skills
+	padding-top: 150px
+	padding-bottom: 50px
+	&-hero-t
+		font-size: 120px
+		color: $gray
+		line-height: 0
+	&-a
+		height: 600px
+		margin-top: 50px
+		display: grid
+		grid-template-areas: 
+		"html css"
+		"frameworks tools"
+		"apps tools"
+		grid-template-rows: 32.5% 32.5% 32.5%
+		grid-template-columns: 1fr 15% 1fr 10%
+		&-hl
+			grid-column: 1/2
+			grid-row: 1/2
+		&-cs			
+			grid-column: 3/4
+			grid-row: 1/2
+		&-fs			
+			grid-column: 1/2
+			grid-row: 2/3
+		&-as			
+			grid-column: 1/2
+			grid-row: 3/4
+		&-ts
+			padding-top: 125px		
+			grid-column: 3/4
+			grid-row: 2/4			
+		&-h
+			font-size: 50px
+		&-p
+			font-size: 25px
+			font-family: $h-m
 
 
 
