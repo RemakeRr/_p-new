@@ -124,7 +124,7 @@ header {
   padding-bottom: 100px;
   background-color: #171717; }
   .about-hero-t {
-    color: #C8C8C8;
+    color: #fff;
     font-size: 120px;
     line-height: 0; }
   .about-l {
@@ -186,6 +186,41 @@ header {
     .skills-a-p {
       font-size: 25px;
       font-family: Hind-M; }
+
+.contact {
+  height: 100vh; }
+  .contact .contact-hero-t {
+    font-size: 120px;
+    line-height: 0;
+    margin-top: 260px; }
+  .contact .contact-hero-e {
+    font-size: 60px;
+    color: #4663E4; }
+  .contact-l {
+    color: #171717;
+    height: 20px;
+    background-color: #171717;
+    border-radius: 14px; }
+
+.contact-b-links {
+  height: 158px;
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none; }
+
+.contact-b-link a {
+  color: #171717;
+  font-size: 15px;
+  text-decoration: none; }
+  .contact-b-link a:hover {
+    color: #4663E4;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
