@@ -121,8 +121,6 @@ header
 			background-image: url('img/works-3.jpg')
 		&-4
 			background-image: url('img/works-4.jpg')
-			
-
 	&-text
 		font-size: 45px
 		margin-top: 60px
@@ -131,7 +129,7 @@ header
 			font-family: $h-m
 			font-size: 25px
 	&-b
-		margin-top: 100px
+		margin-top: 80px
 
 .about
 	padding-top: 150px
@@ -177,7 +175,6 @@ header
 		height: 600px
 		margin-top: 50px
 		display: grid
-		grid-template-areas: 
 		grid-template-rows: 32.5% 32.5% 32.5%
 		grid-template-columns: 1fr 15% 1fr 10%
 		&-hl
@@ -195,7 +192,7 @@ header
 		&-ts
 			padding-top: 125px		
 			grid-column: 3/4
-			grid-row: 2/4			
+			grid-row: 2/4		
 		&-h
 			font-size: 45px
 		&-p
@@ -245,23 +242,102 @@ header
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	/**/
+	.header-hero-t
+		font-size: 15vh
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+	.header-hero-t
+		font-size: 12vh
+	.works-hero-t
+		font-size: 14vh
+	.about-hero-t
+		font-size: 14vh
+	.skills-hero-t
+		font-size: 14vh
+	.skills
+		&-a			
+			&-ts
+				padding-top: 60px
+			&-h
+				font-size: 30px
+			&-p
+				font-size: 22px
+				font-family: $h-m
+	.contact
+		& .contact-hero-t
+			font-size: 14vh
+		& .contact-hero-e
+			font-size: 7vh	
+	.works-hero-t
+		font-size: 12vh
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	/**/
+	.header-hero-t
+		font-size: 10vh
+		margin-top: 100px
+	.works-hero-t
+		font-size: 10vh	
+	.works-text
+		font-size: 35px
+		margin-top: 60px
+	.works-text-p
+		margin-top: 25px
+		font-size: 20px
+	.about-hero-t
+		font-size: 10vh	
+	.about-p
+		font-size: 25px
+	.skills-hero-t
+		font-size: 10vh
+		&-a
+			&-h
+				font-size: 30px
+			&-p
+				font-size: 20px
+				font-family: $h-m
+	.contact
+		& .contact-hero-t
+			font-size: 10vh
+		& .contact-hero-e
+			font-size: 5vh
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
-	/**/
+@media only screen and (max-width : 480px)	
+	.skills
+		&-a
+			margin-top: 0
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr
+			grid-template-columns: 1fr
+			&-w
+				padding-top: 30px
+			&-hl
+				grid-column: 1/2
+				grid-row: 1/2
+			&-cs			
+				grid-column: 1/2
+				grid-row: 2/3
+			&-fs			
+				grid-column: 1/2
+				grid-row: 3/4
+			&-as			
+				grid-column: 1/2
+				grid-row: 4/5
+			&-ts
+				padding-top: 	
+				grid-column: 1/2
+				grid-row: 5/6
+	.contact
+		padding-top: 250px
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
-	/**/
+	.contact
+		padding-top: 400px
+		& .contact-hero-e
+			font-size: 4vh
 
 
 /*==========  Mobile First  ==========*/
