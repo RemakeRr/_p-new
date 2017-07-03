@@ -117,6 +117,8 @@ header {
         height: 600px; }
     .works .works-img-3 {
       background-image: url(../images/works-3.jpg); }
+    .works .works-img-4 {
+      background-image: url(../images/works-4.jpg); }
   .works-text {
     font-size: 45px;
     margin-top: 60px; }
