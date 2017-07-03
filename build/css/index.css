@@ -89,7 +89,6 @@ header {
   color: #4663E4; }
 
 .works {
-  background-color: #F7F7F7;
   padding-top: 50px;
   padding-bottom: 100px; }
   .works-hero-t {
@@ -98,24 +97,33 @@ header {
   .works-l {
     margin-top: 75px; }
   .works .works-img {
-    height: 300px;
+    height: 320px;
     background-color: #4663E4;
-    border-radius: 15px; }
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .4s ease; }
+    .works .works-img:hover {
+      -webkit-box-shadow: 0px 0px 0px 9999px #171717;
+      -moz-box-shadow: 0px 0px 0px 9999px #171717;
+      box-shadow: 0px 0px 0px 9999px #171717; }
     .works .works-img-1 {
-      background-image: url(../images/works-1.png);
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../images/works-1.png); }
     .works .works-img-2 {
-      background-image: url(../images/works-2.jpg);
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../images/works-2.png);
+      background-position: top; }
+      .works .works-img-2:hover {
+        height: 600px; }
     .works .works-img-3 {
-      background-image: url(../images/works-3.jpg);
-      background-size: cover;
-      background-repeat: no-repeat; }
+      background-image: url(../images/works-3.jpg); }
   .works-text {
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 60px; }
+    .works-text-p {
+      margin-top: 40px;
+      font-family: Hind-M;
+      font-size: 25px; }
   .works-b {
     margin-top: 100px; }
 
@@ -130,7 +138,7 @@ header {
   .about-l {
     margin-top: 40px; }
   .about-img {
-    margin-top: 80px;
+    margin-top: 40px;
     height: 300px;
     background-color: #4663E4;
     border-radius: 15px; }
@@ -149,7 +157,7 @@ header {
   .about-p {
     margin-top: 50px;
     color: #fff;
-    font-size: 50px;
+    font-size: 45px;
     font-family: Hind-M; }
 
 .skills {
@@ -182,7 +190,7 @@ header {
       grid-column: 3/4;
       grid-row: 2/4; }
     .skills-a-h {
-      font-size: 50px; }
+      font-size: 45px; }
     .skills-a-p {
       font-size: 25px;
       font-family: Hind-M; }
